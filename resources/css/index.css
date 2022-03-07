@@ -1,3 +1,8 @@
 body {
     background-color: #006a43;
 }
+
+.header {
+    text-align: center;
+    font-size: 50px;
+}
