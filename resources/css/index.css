@@ -17,6 +17,7 @@ h1 {
 p {
     line-height: 1.4;
     font-weight: 500;
+    padding-bottom: 0.7%;
 }
 
 nav {
@@ -26,6 +27,7 @@ nav {
 
 a{
     color: black;
+
 }
 
 nav li {
@@ -44,7 +46,7 @@ footer {
 .background {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 600px;
     width: auto;
     display: flex;
     align-items: center;
@@ -80,3 +82,15 @@ footer {
     right: 75%;
     top: 30%;
 }
+
+@media only screen and (max-width: 480px) {
+    p {
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .map {
+      position: static;
+    }
+  }
