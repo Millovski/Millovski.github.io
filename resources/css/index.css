@@ -95,7 +95,7 @@ figcaption {
 }
 
 .social2 {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -107,8 +107,11 @@ figcaption {
     }
     .map {
         position: static;
-      }
-    .background {
-        height: 930px;
-      }
     }
+    .background {
+        height: 950px;
+    }
+    figcaption {
+        font-style: italic;
+    }
+}
