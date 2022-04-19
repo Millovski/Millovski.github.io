@@ -41,10 +41,16 @@ footer {
     text-align: center;
 }
 
+figcaption {
+    font-style: italic;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
 .background {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 650px;
     width: auto;
     display: flex;
     align-items: center;
@@ -88,6 +94,10 @@ footer {
     display: flex;
 }
 
+.social2 {
+    padding-bottom: 30px;
+}
+
 @media only screen and (max-width: 480px) {
     h1 {
         font-size: 16px;
@@ -99,9 +109,6 @@ footer {
         position: static;
       }
     .background {
-        height: 920px;
+        height: 930px;
+      }
     }
-    .pic {
-        display: flex;
-    }
-  }
