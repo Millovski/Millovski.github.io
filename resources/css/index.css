@@ -85,6 +85,7 @@ footer {
     width: 250px;
     height: 180px;
     padding-bottom: 10px;
+    display: flex;
 }
 
 @media only screen and (max-width: 480px) {
@@ -98,7 +99,7 @@ footer {
         position: static;
       }
     .background {
-        height: 900px;
+        height: 910px;
     }
     .pic {
         display: flex;
