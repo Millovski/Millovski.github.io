@@ -22,9 +22,10 @@ p {
 nav {
     background-color: #006a43;
     text-align: center;
+    width: 100%;
 }
 
-a{
+a {
     color: black;
 }
 
@@ -33,12 +34,6 @@ nav li {
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
-}
-
-footer {
-    background-color: #006a43;
-    height: 123px;
-    text-align: center;
 }
 
 figcaption {
