@@ -92,7 +92,7 @@ footer {
         font-size: 16px;
     }
     p {
-      font-size: 14px;
+        font-size: 14px;
     }
     .map {
         position: static;
@@ -100,10 +100,7 @@ footer {
     .background {
         height: 900px;
     }
-  }
-
-  @media only screen and (max-width: 480px) {
-    .map {
-      position: static;
+    .pic {
+        display: flex;
     }
   }
