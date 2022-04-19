@@ -16,7 +16,6 @@ h1 {
 
 p {
     line-height: 1.4;
-    font-weight: 500;
     padding-bottom: 0.7%;
 }
 
@@ -27,7 +26,6 @@ nav {
 
 a{
     color: black;
-
 }
 
 nav li {
@@ -46,7 +44,7 @@ footer {
 .background {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 700px;
     width: auto;
     display: flex;
     align-items: center;
@@ -83,12 +81,24 @@ footer {
     top: 30%;
 }
 
+.pic {
+    width: 250px;
+    height: 180px;
+    padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 480px) {
     h1 {
-        font-size: 14px;
+        font-size: 16px;
     }
     p {
-      font-size: 12px;
+      font-size: 14px;
+    }
+    .map {
+        position: static;
+      }
+    .background {
+        height: 900px;
     }
   }
 
