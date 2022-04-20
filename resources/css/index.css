@@ -93,6 +93,11 @@ figcaption {
     padding-bottom: 20px;
 }
 
+.background li {
+    line-height: 1.4;
+    padding-bottom: 0.7%;
+}
+
 @media only screen and (max-width: 480px) {
     h1 {
         font-size: 16px;
