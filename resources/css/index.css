@@ -104,6 +104,9 @@ figcaption {
         position: static;
     }
     .background {
+        height: 750px;
+    }
+    #WhatIsPétanque .background {
         height: 950px;
     }
     figcaption {
