@@ -42,6 +42,18 @@ figcaption {
     padding-bottom: 10px;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+  }
+
+td, th {
+  border: 2px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
 .background {
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,18 +107,6 @@ figcaption {
 .background li {
     line-height: 1.4;
     padding-bottom: 0.7%;
-}
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 75%;
-  }
-
-td, th {
-  border: 2px solid black;
-  text-align: center;
-  padding: 8px;
 }
 
 @media only screen and (max-width: 480px) {
