@@ -116,6 +116,13 @@ td, th {
     p {
         font-size: 14px;
     }
+    figcaption {
+        font-style: italic;
+    }
+    table {
+        font-size: 9px;
+        width: 100%;
+    }
     .map {
         position: static;
     }
@@ -124,13 +131,6 @@ td, th {
     }
     #WhatIsPetanque .background {
         height: 950px;
-    }
-    figcaption {
-        font-style: italic;
-    }
-    table {
-        font-size: 9px;
-        width: 100%;
     }
 }
 
