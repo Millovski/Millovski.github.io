@@ -46,12 +46,14 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 75%;
+    margin-bottom: 20px;
 }
 
 td, th {
   border: 2px solid black;
   text-align: center;
-  padding: 8px;
+  padding: 5px;
+  border-color: #006a43;
 }
 
 .background {
@@ -120,7 +122,7 @@ td, th {
         font-style: italic;
     }
     table {
-        font-size: 8px;
+        font-size: 10px;
         width: 100%;
     }
     nav li {
