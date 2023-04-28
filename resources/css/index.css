@@ -56,6 +56,10 @@ td, th {
   border-color: #006a43;
 }
 
+iframe {
+    padding-bottom: 10px;
+}
+
 .background {
     background-repeat: no-repeat;
     background-size: cover;
